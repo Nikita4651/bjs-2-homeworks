@@ -1,7 +1,6 @@
 /**
  * №1
  */
-
 function getArrayParams(...arr) {
 
   const min = Math.min(...arr);// назначаем первый элемент массива в качестве минимума
@@ -13,7 +12,6 @@ function getArrayParams(...arr) {
 
   return { min: min, max: max, avg: avg };
 }
-
 /**
  * №2
  */
