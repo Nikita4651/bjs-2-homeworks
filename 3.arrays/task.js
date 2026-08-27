@@ -18,5 +18,5 @@ function getUsersNamesInAgeRange(users, gender) {
     // складываем все возраста (значения массива ages) и делим на количество пользователей (длинну массива отфильтрованных по полу)
     const averageAge = ages.reduce((sum, age) => sum + age, 0) / filteredByGender.length;
 
-    return averageAge; // возвращаем средний возвраст отфильтрованных по полу пользователей
+    return averageAge;
 }
