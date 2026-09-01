@@ -67,3 +67,6 @@ class AlarmClock {
         this.alarmCollection = []; // опустошает коллекцию звонков
     }
 }
+
+
+
